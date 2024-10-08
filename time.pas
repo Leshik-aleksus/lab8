@@ -9,9 +9,9 @@ begin
   
   if y mod 4 = 0 then
     if (y mod 100 = 0) and (y mod 400 <> 0) then
-      Print('Не високосный год')
-    else Print('Високосный год')
-  else Print('Не високосный год');
+      Print($'{365} дней')
+    else Print($'{366} дней')
+  else Print($'{365} дней');
 end.
 {
 1)
